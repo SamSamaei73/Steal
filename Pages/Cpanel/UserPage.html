@@ -76,9 +76,9 @@
                             <h4 class="Number">۰۹۰۱۱۷۳۹۸۹۵</h4>
                             <h5 class="Listuser" onclick="openUser(event, 'Pish')" id="defaultUser">پیشخوان</h5>
                             <h5 class="Listuser" onclick="openUser(event, 'List')">لیست قیمت محصولات برگزیده</h5>
-                            <h5 class="Listuser" onclick="openUser(event, 'Bill')">پیش فاکتورهای من</h5>
+                            <h5 class="Listuser" onclick="openUser(event, 'Bill2')">پیش فاکتورهای من</h5>
                             <div class="lineTab"></div>
-                            <h5 class="Listuser" onclick="openUser(event, 'Edit')">ویرایش حساب کاربری</h5>
+                            <h5 class="Listuser" onclick="openUser(event, 'Edit2')">ویرایش حساب کاربری</h5>
                             <h5>خروج</h5>
 
                         </div>
@@ -93,89 +93,119 @@
 
                              </div>
                         </div>
-                        <div id="List" class="Info-Tab">
-                            <div class="PageStyle listPlace">
-                                <div class="TitleLists">
-                                    <h6>لیست قیمت محصولات برگزیده</h6>
-                                    <div class="placeButton">
-                                        <div class="PriceArchive">
-                                            <img src="/Images/Iconfeather-archive.png" alt="archive">
-                                            <h6>آرشیو قیمت</h6>
-                                        </div>
-                                        <div class="basket">
-                                            <img src="/Images/ehbasket.png" alt="Basket">
-                                            <h6>سبد خرید</h6>
-                                        </div>
-                                       
+                        <div id="List" class="Info-Tab ExtraHight">
+                            <div class="PageStyle">
+
+                                <div class="HeadForTable">
+                                    <h5>لیست قیمت محصولات برگزیده</h5>
+                                    <div class="ItemUser">
+                                        <h5>آرشیو قیمت</h5>
+                                        <img src="/Images/delivery.png" alt="archive">
                                     </div>
+
                                 </div>
-                                <div class="tablePrice">
-                                    <div class="colorRelated ForCpanel">
-                                        <img src="/Images/icons8-christmas-star-24.png" alt="star">
-                                        <h5>عنوان محصول</h5>
-                                        <h5>محل محصول</h5>
-                                        <h5>قیمت (ریال)</h5>
-                                        <h5>تغییرات (ریال)</h5>
-                                        <h5>افزودن به فاکتور</h5>
-                                        
-                                    </div>
-                                    <div class="rowTableRelated ForCpanel" action="Black-list.html" method="GET">
-                                        <img src="/Images/icons8-star-filled-48.png" alt="star">
-                                        <h5>ورق سیاه ۲ میلی متر رول عرض ۱ فولاد مبارکه</h5>
-                                        <h5>تهران</h5>
-                                        <h5>۲۰،۸۰۰</h5>
-                                        <h5>۱۰۰ <img src="/Images/icons8-star-filled-48.png" alt="trend"></h5>
-                                        <h5><img class="AddToList" src="/Images/Add.png" alt="add"></h5>
-                                    </div>
-                                    <div class="rowTableRelated ForCpanel grayRow">
-                                        <img src="/Images/icons8-star-filled-48.png" alt="star">
-                                        <h5>ورق سیاه ۲ میلی متر رول عرض ۱ فولاد مبارکه</h5>
-                                        <h5>تهران</h5>
-                                        <h5>۲۰،۸۰۰</h5>
-                                        <h5>۱۰۰ <img src="/Images/icons8-star-filled-48.png" alt="trend"></h5>
-                                        <h5><img class="AddToList" src="/Images/Add.png" alt="add"></h5>
-                                    </div>
-                                    <div class="rowTableRelated ForCpanel">
-                                        <img src="/Images/icons8-star-filled-48.png" alt="star">
-                                        <h5>ورق سیاه ۲ میلی متر رول عرض ۱ فولاد مبارکه</h5>
-                                        <h5>تهران</h5>
-                                        <h5>۲۰،۸۰۰</h5>
-                                        <h5>۱۰۰ <img src="/Images/icons8-star-filled-48.png" alt="trend"></h5>
-                                        <h5><img class="AddToList" src="/Images/Add.png" alt="add"></h5>
-                                    </div>
-                                    <div class="rowTableRelated ForCpanel grayRow">
-                                        <img src="/Images/icons8-star-filled-48.png" alt="star">
-                                        <h5>ورق سیاه ۲ میلی متر رول عرض ۱ فولاد مبارکه</h5>
-                                        <h5>تهران</h5>
-                                        <h5>۲۰،۸۰۰</h5>
-                                        <h5>۱۰۰ <img src="/Images/icons8-star-filled-48.png" alt="trend"></h5>
-                                        <h5><img class="AddToList" src="/Images/AddActive.png" alt="add"></h5>
-                                    </div>
-                                    <div class="rowTableRelated ForCpanel">
-                                        <img src="/Images/icons8-star-filled-48.png" alt="star">
-                                        <h5>ورق سیاه ۲ میلی متر رول عرض ۱ فولاد مبارکه</h5>
-                                        <h5>تهران</h5>
-                                        <h5>۲۰،۸۰۰</h5>
-                                        <h5>۱۰۰ <img src="/Images/icons8-star-filled-48.png" alt="trend"></h5>
-                                        <h5><img class="AddToList" src="/Images/AddActive.png" alt="add"></h5>
-                                    </div>
-                                    <div class="pagination ForCpanel">
-                                        <div class="pages">
-                                            <h5>صفحه ها :</h5>
-                                            <h5 class="activePage">1</h5>
-                                            <h5>2</h5>
-                                            <h5>3</h5>
-                                            <h5>4</h5>
-                                            <h5>5</h5>
-                                            <h5>6</h5>
-                                            <h5>7</h5>
-                                        </div>
-                        
-                                    </div>
-                                   </div>
+
+                                <div class="HeadOfTable">
+                                    <img src="/Images/icons8-christmas-star-24.png" alt="star">
+                                    <h6>عنوان محصول</h6>
+                                    <h6>محل تحویل</h6>
+                                    <h6>قیمت (ریال)</h6>
+                                    <h6>تغییرات (ریال)</h6>
+                                    <h6>افزودن به فاکتور</h6>
+                                </div>
+                                <a href="/Pages/InfoSteels.html" class="RowOfUserT">
+                                    <img src="/Images/fill-star.png" alt="star">
+                                    <h5>ورق سیاه ۲ میلی متر رول عرض ۱ فولاد مبارکه</h5>
+                                    <h5>تهران</h5>
+                                    <h5>۲۰،۸۰۰</h5>
+                                    <h5>۱۰۰ <img class="ArowUser" src="/Images/redArrowDown.png" alt="trend"></h5>
+                                    <h5><img class="Add" src="/Images/AddActive.png" alt="add"></h5>
+                                </a>
+                                <a href="/Pages/InfoSteels.html" class="RowOfUserT">
+                                    <img src="/Images/fill-star.png" alt="star">
+                                    <h5>ورق سیاه ۲ میلی متر رول عرض ۱ فولاد مبارکه</h5>
+                                    <h5>تهران</h5>
+                                    <h5>۲۰،۸۰۰</h5>
+                                    <h5>۱۰۰ <img class="ArowUser" src="/Images/redArrowDown.png" alt="trend"></h5>
+                                    <h5><img class="Add" src="/Images/AddActive.png" alt="add"></h5>
+                                </a>
+                                <a href="/Pages/InfoSteels.html" class="RowOfUserT">
+                                    <img src="/Images/fill-star.png" alt="star">
+                                    <h5>ورق سیاه ۲ میلی متر رول عرض ۱ فولاد مبارکه</h5>
+                                    <h5>تهران</h5>
+                                    <h5>۲۰،۸۰۰</h5>
+                                    <h5>۱۰۰ <img class="ArowUser" src="/Images/redArrowDown.png" alt="trend"></h5>
+                                    <h5><img class="Add" src="/Images/AddActive.png" alt="add"></h5>
+                                </a>
+                                <a href="/Pages/InfoSteels.html" class="RowOfUserT">
+                                    <img src="/Images/fill-star.png" alt="star">
+                                    <h5>ورق سیاه ۲ میلی متر رول عرض ۱ فولاد مبارکه</h5>
+                                    <h5>تهران</h5>
+                                    <h5>۲۰،۸۰۰</h5>
+                                    <h5>۱۰۰ <img class="ArowUser" src="/Images/redArrowDown.png" alt="trend"></h5>
+                                    <h5><img class="Add" src="/Images/AddActive.png" alt="add"></h5>
+                                </a>
+                                <a href="/Pages/InfoSteels.html" class="RowOfUserT">
+                                    <img src="/Images/fill-star.png" alt="star">
+                                    <h5>ورق سیاه ۲ میلی متر رول عرض ۱ فولاد مبارکه</h5>
+                                    <h5>تهران</h5>
+                                    <h5>۲۰،۸۰۰</h5>
+                                    <h5>۱۰۰ <img class="ArowUser" src="/Images/redArrowDown.png" alt="trend"></h5>
+                                    <h5><img class="Add" src="/Images/AddActive.png" alt="add"></h5>
+                                </a>
+                                <a href="/Pages/InfoSteels.html" class="RowOfUserT">
+                                    <img src="/Images/fill-star.png" alt="star">
+                                    <h5>ورق سیاه ۲ میلی متر رول عرض ۱ فولاد مبارکه</h5>
+                                    <h5>تهران</h5>
+                                    <h5>۲۰،۸۰۰</h5>
+                                    <h5>۱۰۰ <img class="ArowUser" src="/Images/redArrowDown.png" alt="trend"></h5>
+                                    <h5><img class="Add" src="/Images/AddActive.png" alt="add"></h5>
+                                </a>
+                                <a href="/Pages/InfoSteels.html" class="RowOfUserT">
+                                    <img src="/Images/fill-star.png" alt="star">
+                                    <h5>ورق سیاه ۲ میلی متر رول عرض ۱ فولاد مبارکه</h5>
+                                    <h5>تهران</h5>
+                                    <h5>۲۰،۸۰۰</h5>
+                                    <h5>۱۰۰ <img class="ArowUser" src="/Images/redArrowDown.png" alt="trend"></h5>
+                                    <h5><img class="Add" src="/Images/AddActive.png" alt="add"></h5>
+                                </a>
+                                <a href="/Pages/InfoSteels.html" class="RowOfUserT">
+                                    <img src="/Images/fill-star.png" alt="star">
+                                    <h5>ورق سیاه ۲ میلی متر رول عرض ۱ فولاد مبارکه</h5>
+                                    <h5>تهران</h5>
+                                    <h5>۲۰،۸۰۰</h5>
+                                    <h5>۱۰۰ <img class="ArowUser" src="/Images/redArrowDown.png" alt="trend"></h5>
+                                    <h5><img class="Add" src="/Images/AddActive.png" alt="add"></h5>
+                                </a>
                                
+                                <div class="paginationuSER">
+                                    <div class="pages">
+                                        <h5>صفحه ها :</h5>
+                                        <h5 class="activePage">1</h5>
+                                        <h5>2</h5>
+                                        <h5>3</h5>
+                                        <h5>4</h5>
+                                        <h5>5</h5>
+                                        <h5>6</h5>
+                                        <h5>7</h5>
+                                    </div>
+                                    <div class="Actions">
+                                        <div class="ActionKind">
+                                            <h4>دانلود</h4>
+                                            <img src="/Images/Iconfeather-download.png" alt="">
+                                        </div>
+                                        <div class="ActionKind">
+                                            <h4>دانلود</h4>
+                                            <img src="/Images/Iconfeather-printer.png" alt="">
+                                        </div>
+                                    </div>
+                    
+                                </div>
+                            
+                               
+
+
                              </div>
-                        </div>
                         <div id="Bill" class="Info-Tab">
                             <div class="PageStyle BillEdit">
                                 <h3>پیش فاکتورهای من</h3>
@@ -224,7 +254,57 @@
                                 <button>ثبت اطلاعات</button>
                             </div>
                         </div>
-                    </div>
+                       </div>
+                       <div id="Bill2" class="Info-Tab">
+                           <div class="PageStyle BillEdit">
+                               <h3>پیش فاکتورهای من</h3>
+                               <div class="ListBill">
+                                   <div class="TitleOfBills"></div>
+                                   <div class="Row-Bill">
+                                       <h6>123442324</h6>
+                                       <button>ویرایش</button>
+                                       <button>دریافت پیش فاکتور</button>
+                                   </div>
+                                   <div class="Row-Bill">
+                                       <h6>123442324</h6>
+                                       <button>ویرایش</button>
+                                       <button>دریافت پیش فاکتور</button>
+                                   </div>
+                                   <div class="Row-Bill">
+                                       <h6>123442324</h6>
+                                       <button>ویرایش</button>
+                                       <button>دریافت پیش فاکتور</button>
+                                   </div>
+                                   <div class="Row-Bill">
+                                       <h6>123442324</h6>
+                                       <button>ویرایش</button>
+                                       <button>دریافت پیش فاکتور</button>
+                                   </div>
+                                   <div class="Row-Bill">
+                                       <h6>123442324</h6>
+                                       <button>ویرایش</button>
+                                       <button>دریافت پیش فاکتور</button>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       <div id="Edit2" class="Info-Tab">
+                           <div class="PageStyle EditUser">
+                               <h3>ویرایش حساب کاربری</h3>
+                               <form action="" class="Input-Edit">
+                                   <input type="text" placeholder="نام">
+                                   <input type="text" placeholder="نام خانوادگی">
+                                   <input type="text" placeholder="نام سازمان">
+                                   <input type="text" readonly>
+                                   <input type="text" placeholder="شناسنامه/شناسه ثبت">
+                                   <input type="text" placeholder="تلفن ثابت">
+                                   <textarea name="" id="" cols="30" rows="10" placeholder="آدرس"></textarea>
+                               </form>
+                               <button>ثبت اطلاعات</button>
+                           </div>
+                       </div>
+                       
+                       
                    
                     
                 </div>

@@ -673,7 +673,7 @@
 
 .pagination{
   width: 90%;
-  height: 3rem;
+  height: 4rem;
   background-color: #F5F5F5 ;
   border-radius: 5px;
   display: flex;
@@ -683,7 +683,33 @@
   padding: 0 3rem;
   align-items: center;
   box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.1);
+  margin-top: 10px;
   
+}
+.pagination .Actions{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pagination .Actions .ActionKind{
+  width: 6rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 2px;
+  
+}
+.pagination .Actions .ActionKind h4{
+  color: #0A426D;
+  font-size: 15px;
+  cursor: pointer;
+}
+.pagination .Actions .ActionKind img{
+  width: 23px;
+  height: 23px;
+  margin-right: 10px;
 }
 
 .pagination .pages{
@@ -708,120 +734,90 @@
 
 /* <!-- //////////////////////////////////////related///////////////////////////////////////////////////////////// --> */
 
-.related{
+.EspecialArticle{
   width: 100%;
-  padding: 1rem;
+  height: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 5rem;
+}
+.EspecialArticle .MainPart{
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+.EspecialArticle .MainPart .TitleArticleE{
+  width: 25%;
+  height: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 1rem 0;
+  padding: 1rem;
+
 }
-.related h2{
+.EspecialArticle .MainPart .TitleArticleE h2{
   width: 100%;
   text-align: right;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
 }
-.related .table-related{
+.EspecialArticle .MainPart .TitleArticleE .NameOfTitle{
   width: 100%;
-  padding: 1rem;
+  height: 90%;
+  overflow: auto;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
+  padding: 1rem ;
 }
-
-.colorRelated{
-  width: 90%;
-  height: 3rem;
-  background-color: #D2EBFF ;
-  border-radius: 20px;
-  color: #0c1c4f;
-  display: flex;
-  overflow: hidden;
+.EspecialArticle .MainPart .TitleArticleE .NameOfTitle a{
+  width: 100%;
+  text-align: right;
   direction: rtl;
-  justify-content: space-between;
-  padding: 0 1rem;
-  align-items: center;
-  margin-bottom: 1px;
-}
-.rowTableRelated{
-  width: 90%;
-  height: 3rem;
-  background-color: #ffffff ;
-  border-radius: 20px;
-  display: flex;
-  overflow: hidden;
-  direction: rtl;
-  justify-content: space-between;
-  padding: 0 1rem;
-  align-items: center;
-  box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.1);
-    margin-bottom: 1px;
-    font-family: "Shabnam" ;
-}
-.colorRelated h5{
-  text-align: center;
-}
-.colorRelated h5:nth-child(2){
-  width: 13rem;
-  font-size: 13px;
-}
-.colorRelated h5:nth-child(3){
-  width: 6rem;
-
-}
-.colorRelated h5:nth-child(4){
-  width: 6rem;
-}
-
-
-.colorRelated h5:nth-child(5){
-  width: 7rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.colorRelated h5:nth-child(6){
-  width: 6rem;
-}
-.rowTableRelated h5{
-  text-align: center;
-}
-.rowTableRelated h5:nth-child(2){
-  width: 13rem;
-  font-size: 11px;
-  overflow: hidden;
-}
-.rowTableRelated h5:nth-child(3){
-  width: 6rem;
-}
-.rowTableRelated h5:nth-child(4){
-  width: 6rem;
-}
-
-
-.rowTableRelated h5:nth-child(5){
-  width: 6rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.rowTableRelated h5:nth-child(6){
-  width: 6rem;
-}
-
-.rowTableRelated img{
-  width: 1rem;
-  height: 1rem;
+  margin-bottom: 20px;
   cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
 }
-.rowTableRelated:hover{
-  background-color: rgba(255, 192, 203, 0.673);
+.EspecialArticle .MainPart .Description{
+  width:70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+
 }
-.grayRow {
-  background-color: #E9E9E9;
+.EspecialArticle .MainPart .Description .Descriptions{
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding: 1rem;
+  scroll-behavior: smooth;
+
+
 }
-.AddToList{
-  width: 25px !important;
-  height: 25px !important;
+.EspecialArticle .MainPart .Description .Descriptions h4{
+  margin-bottom: 1rem;
+}
+.EspecialArticle .MainPart .Description h2{ 
+  width: 100%;
+  text-align: right;
+}
+.EspecialArticle .MainPart .Description h4{ 
+  width: 100%;
+  text-align: right;
+  color: #5A5A5A;
+}
+.EspecialArticle .MainPart .HorizenLine{
+  width: 2px;
+  height: 90%;
+  background-color: #0a426d91;
+
 }

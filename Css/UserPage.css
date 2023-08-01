@@ -36,14 +36,15 @@
     margin-top: 2rem;  
  }
  .User-Place .Tab-Details .Number{
-    width: 100%;
+    width: 80%;
     text-align: center;
     overflow: hidden;  
     margin-top: 1rem;  
-    background-color: #fff;
+    background-color: #E8E8E8;
     padding: 5px 0;
     font-size: 13px;
     margin-bottom: 1rem;
+    border-radius: 10px;
  }
  .User-Place .Tab-Details h5{
     width: 90%;
@@ -71,19 +72,22 @@
  }
  .Info-Tab{
     width: 60%;
-    height: 40rem;
+    height: 28rem;
     margin-right: 2rem;
     overflow: hidden;
  }
  .Info-Tab .PageStyle{
     width: 100%;
-    height: 28rem;
+    height: 100%;
     display: flex;
     align-items: center;
-    padding: 1rem;
     border-radius: 10px;
-
-
+    flex-direction: column;
+    overflow: auto;
+    padding: 2px;
+ }
+ .ExtraHight{
+   height: 40rem !important;
  }
  .Info-Tab .Pishkhan{
     flex-direction: column;
@@ -100,6 +104,7 @@
     background-color: #F5F5F5;
     box-shadow: inset 0px 0px 20px 7px rgba(0,0,0,0.1);
  }
+
  .Info-Tab .Pishkhan h2{
     margin-top: 3rem;
     width: 50%;
@@ -255,72 +260,183 @@
    height: 40rem !important;
    flex-direction: column;
    overflow:auto;
-   
  }
- 
- .listPlace .TitleLists{
+
+ .HeadForTable{
    width: 100%;
-   padding: 0.5rem 3rem;
+   height: 3rem;
    border: 1px solid #0C416D;
-   border-radius: 10px;
+   border-radius: 7px;
    display: flex;
    align-items: center;
    justify-content: space-between;
+   padding: 0 1rem;
+   color: #0C416D;
    margin-bottom: 2rem;
  }
- .listPlace .TitleLists .placeButton{
+
+ .HeadForTable .ItemUser{
+   width: 10rem;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ .HeadForTable .ItemUser img{
+   width: 20px;
+   margin-right: 10px;
+ }
+ 
+ .HeadOfTable{
+   width: 100%;
+   height: 3rem;
+  background-color: #D2EBFF ;
+  border-radius: 20px;
+  display: flex;
+  overflow: hidden;
+  direction: rtl;
+  justify-content: space-between;
+  padding: 0 1rem;
+  align-items: center;
+  margin-bottom: 1px;
+ }
+ .HeadOfTable img{
+   width: 1rem;
+   height: 1rem;
+   cursor: pointer;
+ }
+ .HeadOfTable h6{
+   font-size: 11px;
+   text-align: center;
+ }
+ .HeadOfTable h6:nth-child(2){
+   width: 14rem;
+}
+.HeadOfTable h6:nth-child(3){
+   width: 4rem;
+}
+.HeadOfTable h6:nth-child(4){
+   width: 4rem;
+}
+.HeadOfTable h6:nth-child(5){
+   width: 5rem;
+}
+.HeadOfTable h6:nth-child(6){
+   width: 6rem;
+ }
+
+ .RowOfUserT{
+   width: 100%;
+   height: 3rem;
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
+  direction: rtl;
+  justify-content: space-between;
+  padding: 0 1rem;
+  align-items: center;
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.1);
+    margin-bottom: 2PX;
+    text-decoration: none;
+    color: black;
+ }
+ .RowOfUserT .Add{
+   width: 20px;
+ }
+ .RowOfUserT h5{
+   font-size: 11px;
+   text-align: center;
+   padding-right: 20px;
+ }
+ .RowOfUserT:nth-child(2n+1){
+   background-color: #E5E5E5;
+ }
+ 
+ .RowOfUserT .ArowUser{
+   width: 10px;
+ }
+
+ .RowOfUserT h5:nth-child(2){
+   width: 14rem;
+   overflow: hidden;
+
+}
+.RowOfUserT h5:nth-child(3){
+   width: 4rem;
+
+}
+.RowOfUserT h5:nth-child(4){
+   width: 4rem;
+
+}
+.RowOfUserT h5:nth-child(5){
+   width: 5rem;
+
+}
+.RowOfUserT h5:nth-child(6){
+   width: 6rem;
+
+ }
+
+ .paginationuSER{
+   width: 100%;
+   height: 3rem;
+   background-color: #F5F5F5 ;
+   border-radius: 5px;
+   display: flex;
+   overflow: hidden;
+   direction: rtl;
+   justify-content: space-between;
+   padding: 0 1rem;
+   align-items: center;
+   box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.1);
+   margin-top: 10px;
+   
+ }
+ .paginationuSER .Actions{
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .paginationuSER .Actions .ActionKind{
+   width: 6rem;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0 2px;
+   
+ }
+ .paginationuSER .Actions .ActionKind h4{
+   color: #0A426D;
+   font-size: 13px;
+   cursor: pointer;
+ }
+ .paginationuSER .Actions .ActionKind img{
+   width: 20px;
+   height: 20px;
+   margin-right: 10px;
+ }
+ 
+ .paginationuSER .pages{
    width: 50%;
    display: flex;
    align-items: center;
-   justify-content: space-between;
-   
+   justify-content: right;
  }
- .listPlace .TitleLists .placeButton .basket{
-   background-color: #0C416D;
-   display: flex;
-   align-items: center;
-   justify-content: space-evenly;
-   width: 8rem;
-   border-radius: 5px;
-   color: #fff;
-   direction: ltr;
-   padding: 5px;
+ .paginationuSER .pages h5{
+   margin: 0 0.5rem;
+   font-family: "Nazanin" ;
    cursor: pointer;
+   font-size: 15px;
+ 
  }
- .listPlace .TitleLists .placeButton .basket img{
-   width: 20px;
+ .activePage{
+   border-bottom: 1px solid black;
  }
- .listPlace .TitleLists .placeButton .PriceArchive img{
-   width: 20px;
+ .paginationuSER .pages h5:nth-child(1){
+   font-family: "Shabnam" ;
  }
- .listPlace .TitleLists .placeButton .PriceArchive{
-   display: flex;
-   align-items: center;
-   justify-content: space-evenly;
-   width: 8rem;
-   border-radius: 5px;
-   direction: ltr;
-   padding: 5px;
-   cursor: pointer;
-   color: #0C416D;
- }
- .listPlace .TitleLists .placeButton .PriceArchive{
-   display: flex;
-   align-items: center;
-   justify-content: space-evenly;
-   width: 8rem;
-   border-radius: 5px;
-   direction: ltr;
-   padding: 5px;
-   cursor: pointer;
-   color: #0C416D;
- }
- .listPlace .tablePrice{
-   width: 100%;
-   display: flex;
-   align-items: center;
-   flex-direction: column;
-}
-.ForCpanel{
-   width: 100% !important;
-}
+ 
